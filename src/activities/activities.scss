@@ -1,0 +1,26 @@
+.activities_main {
+  width: 100%;
+  min-height: 700px;
+  max-height: fit-content;
+  border-radius: 10px;
+  background-color: #e8e8e8;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 20px;
+
+  .activities_main_creation {
+    max-height: 40px;
+    height: 40px;
+    display: flex;
+    background-color: rgb(81, 29, 136);
+    color: #ffffff;
+    box-shadow: none;
+    text-transform: initial;
+
+    &:hover {
+      background-color: rgb(58, 235, 188);
+      box-shadow: none;
+    }
+  }
+}
